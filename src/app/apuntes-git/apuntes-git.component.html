@@ -1,0 +1,10 @@
+
+
+<ul>
+    <li *ngFor="let item of gitHubCommands ; track item; let i = $index"
+        class="list-element">
+        <strong class="title-description"> {{item}} </strong>
+        <p> {{arrDescript[i]}} </p>
+    </li>
+
+</ul>

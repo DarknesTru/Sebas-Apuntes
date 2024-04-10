@@ -1,0 +1,10 @@
+
+    .list-element {
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .tile-description{
+        font-weight: bold;
+    }
